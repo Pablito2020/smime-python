@@ -38,13 +38,13 @@ message = os.environ.get("MESSAGE")
 def assert_environment_variables():
     """
     asserts that all the environment variables (needed for the execution of the program)
-    are initialized. If some variables aren't initialized, show them and exit.
+    are initialized. If some variable isn't initialized, show a message and exit.
     """
     error_string = "Specify the environment variables:\n"
     if not password:
         error_string += "\tMAIL_PASSWORD (The password of the mail)\n"
     if not mailfrom:
-        error_string += "\tMAIL_FROM (The mail address that sends the mail)\n"
+        error_string += "\tMAIL_FROM (The source mail address)\n"
     if not mailto:
         error_string += "\tMAILTO (The destination mail)\n"
     if not name_sender:

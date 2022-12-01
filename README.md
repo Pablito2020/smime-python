@@ -29,5 +29,8 @@ If you want to run the script, execute:
     $ python mail.py
 ```
 
-The program uses some environment variables for knowing which message has to send, the password and mail of the user, etc. If you don't have this environment variables exported, the program will show the missing ones and exit.
+The program uses some environment variables for knowing which message has to send, the password and mail of the user, etc. If you don't have this environment variables exported, the program will show the missing ones and exit. This project includes a template (run.sh) for exporting the variables and then run the mail.py script. Once you edit the run.sh file with your own variables you can run it with:
 
+```
+    $ ./run.sh
+```

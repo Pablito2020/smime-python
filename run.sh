@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set variables
-MAIL_PASSWORD=$(pass pfa4@alumnes.udl.cat)
+MAIL_PASSWORD=$(pass pfa4@alumnes.udl.cat) # Use pass (the linux password manager) for the password
 MAILFROM="pfa4@alumnes.udl.cat"
 MAILTO="pfa4@alumnes.udl.cat"
 NAME_SENDER="Pablo Fraile Alonso"
